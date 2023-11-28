@@ -14,5 +14,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: 22
-        source: "mag/*"
-        target: /var/www/html
+        source: "tesphp/*"
+        target: /var/www/html/
+        timeout: 120s
